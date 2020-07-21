@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+  background-image: url("https://cdn6.aptoide.com/imgs/4/5/8/4584362609db0457ff0134390f86d8c3_icon.png?w=256"); background-size: 20%;
+}
+
+h1 {
+  color: rgb(135,17,21);
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  word-spacing: 10pt;
+}
+h3 {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  -webkit-animation-iteration-count: 
+  infinite;
+  -webkit-animation-duration: 0.3s;
+  -webkit-animation-name: Rojito;
+}
+
+img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.contenedor {
+  margin: 4em;
+  margin-bottom: 2em;
+  padding: 2em;
+  background-color: rgba(250,250,250,0.9);
+}
+
+p {
+  text-justify: auto;
+  font-size: 20px;
+}
+
+footer {
+  background-color: rgba(255,255,255,0.9);
+  text-align:center;
+  margin-right: 4em;
+  margin-left: 4em;
+}
+ 
+@-webkit-keyframes Rojito {
+  from {
+    color: black;
+  }
+  to {
+    color: red;
+  }
+}
